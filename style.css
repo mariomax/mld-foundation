@@ -1,0 +1,30 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Nick
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+/* Color Palette */
+:root {
+  --black: #2b2b2b;
+  --blue: #44697D;
+  --purple: #4F324C;
+  --dGreen: #557630;
+  --lGreen: #ABC785;
+  --orange: #C75B12;
+  --yellow: #CA9B4B;
+}
+
+.contact-info-widget li {
+  margin: 0 0 0 !important;
+}
+
+h2.child-css {
+  color: var(--orange);
+}
