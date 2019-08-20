@@ -21,10 +21,45 @@ Version: 1.0
   --yellow: #CA9B4B;
 }
 
-.contact-info-widget li {
-  margin: 0 0 0 !important;
+.page-header {
+  display: none;
 }
 
-h2.child-css {
-  color: var(--orange);
+/* Home */
+.home-top-boxes img {
+  border-radius: 5px;
+}
+
+.statistic h2 {
+  font-family: Lato, sans-serif;
+}
+
+/* Footer */
+#media_image-2 {
+  display: flex;
+  justify-content: center;
+}
+
+#media_image-2 img {
+  height: auto;
+  width: 75%;
+}
+
+.custom-menu-widget .oceanwp-custom-menu>ul>li {
+  border-bottom: none;
+}
+
+#footer-widgets li {
+  padding: 0 12px 0 0;
+}
+
+.oceanwp-about-me-text {
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  #media_image-2 {
+    display: flex;
+    justify-content: start;
+  }
 }
