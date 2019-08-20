@@ -25,6 +25,10 @@ Version: 1.0
   display: none;
 }
 
+.sidr-class-mobile-searchform button {
+  line-height: 0px;
+}
+
 /* Home */
 .home-top-boxes img {
   border-radius: 5px;
@@ -36,8 +40,12 @@ Version: 1.0
 
 /* Footer */
 #media_image-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #media_image-2 img {
@@ -59,7 +67,11 @@ Version: 1.0
 
 @media (min-width: 768px) {
   #media_image-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 }
