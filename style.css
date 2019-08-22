@@ -2,7 +2,7 @@
 Theme Name: OceanWP Child
 Theme URI: https://oceanwp.org/
 Description: OceanWP WordPress theme example child theme.
-Author: Nick
+Author: Nick & Anchor Tag Design
 Author URI: https://oceanwp.org/
 Template: oceanwp
 Version: 1.0
@@ -34,18 +34,14 @@ Version: 1.0
   border-radius: 5px;
 }
 
-.statistic h2 {
-  font-family: Lato, sans-serif;
-}
-
 /* Footer */
 #media_image-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 #media_image-2 img {
@@ -71,7 +67,7 @@ Version: 1.0
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 }
