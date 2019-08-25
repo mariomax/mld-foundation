@@ -34,6 +34,42 @@ Version: 1.0
   border-radius: 5px;
 }
 
+/* Posts Slider */
+#post-slider .elementor-widget-container {
+  border-radius: 5px;
+}
+
+#post-slider .oew-carousel .slick-arrow {
+  top: calc(50% - 20px);
+  margin-top: 0;
+}
+
+#post-slider .oew-carousel .slick-prev {
+  left: -1.2em;
+}
+
+#post-slider .oew-carousel .slick-next {
+  right: -1.2em;
+}
+
+.oew-carousel .oew-carousel-entry-media img {
+  border-radius: 5px;
+}
+
+#post-slider .oew-carousel .readmore-btn a {
+  color: var(--blue);
+  background-color: #FFF;
+  border-bottom: none;
+  border-radius: 5px;
+  padding-bottom: 12px;
+  padding: 12px 24px;
+}
+
+#post-slider .oew-carousel .readmore-btn a:hover {
+  color: #FFF;
+  background-color: var(--blue);
+}
+
 /* Footer */
 #media_image-2 {
   display: -webkit-box;
